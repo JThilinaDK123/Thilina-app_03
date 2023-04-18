@@ -103,7 +103,7 @@ app.post('/inputMsg', async (req, res) => {
  * `app.listen(process.env.PORT || 3000)` is starting the server and listening for incoming requests on the specified port number. 
  * If the `PORT` environment variable is set, the server will listen on that port number. Otherwise, it will listen on port 3000. 
  * */
-app.listen(process.env.PORT || 8089);
-console.log(`App listening at http://localhost:${process.env.PORT || 8089}`);
+app.listen(process.env.PORT || 3000);
+console.log(`App listening at http://localhost:${process.env.PORT || 3000}`);
 
 module.exports = app;

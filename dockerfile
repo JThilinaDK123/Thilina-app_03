@@ -8,8 +8,8 @@ RUN npm install
 
 COPY . .
 
-ENV PORT = 8089
+ENV PORT = 3000
 
-EXPOSE 8089
+EXPOSE 3000
 
 CMD [ "node", "server/demo.js" ]
