@@ -6,7 +6,7 @@ const inputMsg = document.getElementById('msg-input');
 const resMsg = document.getElementById('msg-response');
 
 
-/**
+/***
  * This function sends a message inputted by the user to the server and displays the response received from the server.
  * @param e - The parameter `e` is an event object that is passed to the `sendMsgInfo` function when it is called. It is used to prevent the default behavior of a form submission when the function is called as an event listener.
  * @returns If the inputMsg value is empty, the function will return and nothing will happen. Otherwise, the function will make a POST request to the '/inputMsg' endpoint with the inputMsg value as a JSON object in the request body. It will then wait for a response from the server and if the response status is 'received', it will set the text content of the resMsg element to the response
