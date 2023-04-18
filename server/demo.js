@@ -63,6 +63,7 @@ app.get('/info', (req, res) => {
  * If `parcel` is provided, the server calls the `generateResponse` function with `parcel` as an argument to generate a response using OpenAI's GPT-3.5-turbo model. 
  * The server logs the response to the console and responds to the client with a status code of 200 and a JSON object containing a `status` property with a value of 'received' and a `message` property with the generated response. 
  * */
+
 app.post('/inputMsg', async (req, res) => {
     const { parcel } = req.body;
     console.log(parcel);
